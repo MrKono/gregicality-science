@@ -306,133 +306,133 @@ material.heavy_hyper_fuel=重質ハイパー燃料
 
 
 # Tricorder Info
-behavior.tricorder.current_pressure=Current Pressure: %s Pa
-behavior.tricorder.min_pressure=Minimum Pressure: %s Pa
-behavior.tricorder.max_pressure=Maximum Pressure: %s Pa
+behavior.tricorder.current_pressure=現在圧力: %s Pa
+behavior.tricorder.min_pressure=最小圧力: %s Pa
+behavior.tricorder.max_pressure=最大圧力: %s Pa
 
 
 # Generic Pressure Info
-gcys.universal.tooltip.pressure.minimum=Minimum Pressure Capacity: §a%sPa (§r%s§a)
-gcys.universal.tooltip.pressure.maximum=Maximum Pressure Capacity: §a%sPa (§r%s§a)
-gcys.universal.tooltip.pressure.target=Pressure Target
+gcys.universal.tooltip.pressure.minimum=最小耐圧力: §a%sPa (§r%s§a)
+gcys.universal.tooltip.pressure.maximum=最大耐圧力: §a%sPa (§r%s§a)
+gcys.universal.tooltip.pressure.target=圧力目標
 
 
 # Single Block Machines
 
-# Steam Ejector
-gcys.machine.steam_ejector.name=Steam Ejector
-gcys.steam_ejector.tooltip.1=Creating your first Vacuum.
-gcys.steam_ejector.tooltip.2=Decreases pressure by §b%sPa§7 per second.
-gcys.steam_ejector.tooltip.3=Consumes %sL of Steam per second.
+# Steam EjectorTaranium
+gcys.machine.steam_ejector.name=蒸気排出気
+gcys.steam_ejector.tooltip.1=初めての真空作成に.
+gcys.steam_ejector.tooltip.2=秒間§b%sPa§7減圧する.
+gcys.steam_ejector.tooltip.3=蒸気を秒間%sL消費する.
 
 # Vacuum Chamber
-gcys.machine.steam_vacuum_chamber.name=Small Steam Vacuum Chamber
+gcys.machine.steam_vacuum_chamber.name=小型蒸気式真空チャンバー
 
 # Infinite Pressure Pump
-gcys.machine.infinite_pressure_pump.name=Infinite Pressure Pump
-gcys.machine.infinite_pressure_pump.tooltip=§8You just need §o§5C§dr§4e§ca§et§ai§bv§3e §7m§1o§5d§de§r§8 to use this
+gcys.machine.infinite_pressure_pump.name=無制限圧力ポンプ
+gcys.machine.infinite_pressure_pump.tooltip=§8扱うには§o§5ク§dリ§4エ§cイ§eテ§aィ§bブ§3モ§9ー§1ド§r§8が必要です.
 
 # Dryer
-gregtech.machine.dryer.tooltip=Vaporizing liquids
+gregtech.machine.dryer.tooltip=液体を気化
 
 # Multi Block Hatches
-gcys.machine.pressure_hatch.ivv.name=Intergalactic Void Vacuum Hatch
-gcys.machine.pressure_hatch.csv.name=Close-Space Vacuum Hatch
-gcys.machine.pressure_hatch.ehv.name=Extremely High Vacuum Hatch
-gcys.machine.pressure_hatch.uhv.name=Ultra High Vacuum Hatch
-gcys.machine.pressure_hatch.hv.name=High Vacuum Hatch
-gcys.machine.pressure_hatch.mv.name=Medium Vacuum Hatch
-gcys.machine.pressure_hatch.lv.name=Low Vacuum Hatch
-gcys.machine.pressure_hatch.lp.name=Low Pressure Hatch
-gcys.machine.pressure_hatch.mp.name=Medium Pressure Hatch
-gcys.machine.pressure_hatch.hp.name=High Pressure Hatch
-gcys.machine.pressure_hatch.uhp.name=Ultra High Pressure Hatch
-gcys.machine.pressure_hatch.edp.name=Electron Degeneracy Pressure Hatch
-gcys.machine.pressure_hatch.wdp.name=White Dwarf Pressure Hatch
-gcys.machine.pressure_hatch.nsp.name=Neutron Star Pressure Hatch
+gcys.machine.pressure_hatch.ivv.name=銀河間虚空真空ハッチ
+gcys.machine.pressure_hatch.csv.name=閉宇宙空間真空ハッチ
+gcys.machine.pressure_hatch.ehv.name=極高真空ハッチ
+gcys.machine.pressure_hatch.uhv.name=超高真空ハッチ
+gcys.machine.pressure_hatch.hv.name=高真空ハッチ
+gcys.machine.pressure_hatch.mv.name=中真空ハッチ
+gcys.machine.pressure_hatch.lv.name=低真空ハッチ
+gcys.machine.pressure_hatch.lp.name=低圧力ハッチ
+gcys.machine.pressure_hatch.mp.name=中圧力ハッチ
+gcys.machine.pressure_hatch.hp.name=高圧力ハッチ
+gcys.machine.pressure_hatch.uhp.name=超高圧力ハッチ
+gcys.machine.pressure_hatch.edp.name=電子縮退圧力ハッチ
+gcys.machine.pressure_hatch.wdp.name=白色矮星圧力ハッチ
+gcys.machine.pressure_hatch.nsp.name=中性子星圧力ハッチ
 
 # Multi Block Machines
 
 # Crystallizer
-gcys.machine.crystallization_crucible.name=Crystallization Crucible
+gcys.machine.crystallization_crucible.name=結晶化るつぼ
 
 # Roaster
-gcys.machine.roaster.name=Roaster
-gcys.multiblock.roaster.tooltip.1=Bronze Firebox: §c1000K
-gcys.multiblock.roaster.tooltip.2=Steel Firebox: §c1500K
-gcys.multiblock.roaster.tooltip.3=Titanium Firebox: §c2000K
-gcys.multiblock.roaster.tooltip.4=Tungstensteel Firebox: §c2500K
+gcys.machine.roaster.name=ロースター
+gcys.multiblock.roaster.tooltip.1=ブロンズ製火室: §c1000K
+gcys.multiblock.roaster.tooltip.2=スチール製火室: §c1500K
+gcys.multiblock.roaster.tooltip.3=チタン製火室: §c2000K
+gcys.multiblock.roaster.tooltip.4=タングステンスチール製火室: §c2500K
 # Burner Reactor
-gcys.machine.burner_reactor.name=Burner Reactor
+gcys.machine.burner_reactor.name=加熱反応機
 
 # Cryogenic Reactor
-gcys.machine.cryogenic_reactor.name=Cryogenic Reaction Chamber
+gcys.machine.cryogenic_reactor.name=低温反応機
 
 # Nanoscale Fabricator
-gcys.machine.nanoscale_fabricator.name=Nanoscale Fabricator
-gcys.multiblock.nanoscale_fabricator.tooltip.1=Average Crucible heat cannot exceed the target by more than §c250K§7.
+gcys.machine.nanoscale_fabricator.name=ナノスケール製造機
+gcys.multiblock.nanoscale_fabricator.tooltip.1=るつぼの平均熱量は目標値を§c250K§7以上超過してはならない
 
 # CVD Unit
-gcys.machine.cvd_unit.name=CVD Unit
+gcys.machine.cvd_unit.name=CVDユニット
 
 # Fracking Machine
-gcys.machine.fracker.name=Hydraulic Fracker
-gcys.multiblock.fracker.tooltip.1=Uses 1000L of Fracturing Fluid to replenish veins under bedrock.
-gcys.multiblock.fracker.tooltip.2=Consumes §a%s EU/t§7.
+gcys.machine.fracker.name=水圧破砕機
+gcys.multiblock.fracker.tooltip.1=1000Lのフラクチャリング溶液を使用し、岩盤下の鉱脈を補給する.
+gcys.multiblock.fracker.tooltip.2=§a%s EU/t§7を消費.
 
 # Sonicator
-gcys.machine.sonicator.name=Sonicator
+gcys.machine.sonicator.name=超音波処理器
 
 # Catalytic Reformer
-gcys.machine.catalytic_reformer.name=Catalytic Reformer
+gcys.machine.catalytic_reformer.name=接触改質機
 
 # Industrial Drill
-gcys.machine.industrial_drill.name=Industrial Drilling Rig
-gcys.multiblock.industrial_drill.tooltip.1=Drills the block placed beneath the Drill Head.
-gcys.multiblock.industrial_drill.tooltip.2=The target block is not broken when non-consumable.
+gcys.machine.industrial_drill.name=工業用大型採掘機
+gcys.multiblock.industrial_drill.tooltip.1=ドリルヘッドの下に置かれたブロックをドリルで削る.
+gcys.multiblock.industrial_drill.tooltip.2=「§bこのレシピでは消費されない§7」の場合、ターゲットブロックは壊れない.
 
 # Axial Compressors
-gcys.machine.axial_compressor.subsonic.name=Subsonic Axial Compressor
-gcys.machine.axial_compressor.supersonic.name=Supersonic Axial Compressor
-gcys.multiblock.axial_compressor.tooltip.1=Increases pressure by §b%sPa/s§7 up to §a%sPa (§r%s§a).
-gcys.multiblock.axial_compressor.tooltip.2=Consumes §e%sL/s§7 Lubricant when increasing pressure.
-gcys.multiblock.axial_compressor.tooltip.3=Uses %s§7 power. Does not overclock.
+gcys.machine.axial_compressor.subsonic.name=亜音速軸流圧縮機
+gcys.machine.axial_compressor.supersonic.name=超音速軸流圧縮機
+gcys.multiblock.axial_compressor.tooltip.1=§b%sPa/s§7で加圧する. (限界: §a%sPa (§r%s§a)).
+gcys.multiblock.axial_compressor.tooltip.2=加圧時は潤滑剤を§e%sL/s§7で消費する.
+gcys.multiblock.axial_compressor.tooltip.3=%s§7を使用する. オーバークロック不可.
 
 # Turbomolecular Pumps
-gcys.machine.turbomolecular_pump.low_power.name=Low-Power Turbomolecular Pump
-gcys.machine.turbomolecular_pump.high_power.name=High-Power Turbomolecular Pump
-gcys.multiblock.turbomolecular_pump.tooltip.1=Decreases pressure by §b%sPa/s§7 up to §a%sPa (§r%s§a).
-gcys.multiblock.turbomolecular_pump.tooltip.2=Consumes §e%sL/s§7e Lubricant when decreasing pressure.
-gcys.multiblock.turbomolecular_pump.tooltip.3=Uses %s§7 power. Does not overclock.
+gcys.machine.turbomolecular_pump.low_power.name=低出力ターボ分子ポンプ
+gcys.machine.turbomolecular_pump.high_power.name=高出力ターボ分子ポンプ
+gcys.multiblock.turbomolecular_pump.tooltip.1=§b%sPa/s§7で減圧する. (限界: §a%sPa (§r%s§a)).
+gcys.multiblock.turbomolecular_pump.tooltip.2=減 Dryer圧時は潤滑剤を§e%sL/s§7で消費する.
+gcys.multiblock.turbomolecular_pump.tooltip.3=%s§7を使用する. オーバークロック不可.
 
 # Single Block Machines
 
-gcys.machine.dryer.lv.name=Basic Dryer
-gcys.machine.dryer.lv.tooltip=Not for Hair
-gcys.machine.dryer.mv.name=Advanced Dryer
-gcys.machine.dryer.mv.tooltip=Not for Hair
-gcys.machine.dryer.hv.name=Advanced Dryer II
-gcys.machine.dryer.hv.tooltip=Not for Hair
-gcys.machine.dryer.ev.name=Advanced Dryer III
-gcys.machine.dryer.ev.tooltip=Not for Hair
-gcys.machine.dryer.iv.name=Elite Dryer
-gcys.machine.dryer.iv.tooltip=Not for Clothing
-gcys.machine.dryer.luv.name=Elite Dryer II
-gcys.machine.dryer.luv.tooltip=Not for Clothing
-gcys.machine.dryer.zpm.name=Elite Dryer III
-gcys.machine.dryer.zpm.tooltip=Not for Clothing
-gcys.machine.dryer.uv.name=Ultimate Dryer
-gcys.machine.dryer.uv.tooltip=Moisture Remover
-gcys.machine.dryer.uhv.name=Epic Dryer
-gcys.machine.dryer.uhv.tooltip=Moisture Remover
-gcys.machine.dryer.uev.name=Epic Dryer II
-gcys.machine.dryer.uev.tooltip=Moisture Remover
-gcys.machine.dryer.uiv.name=Epic Dryer III
-gcys.machine.dryer.uiv.tooltip=Moisture Remover
-gcys.machine.dryer.uxv.name=Epic Dryer IV
-gcys.machine.dryer.uxv.tooltip=Moisture Remover
-gcys.machine.dryer.opv.name=Legendary Dryer
-gcys.machine.dryer.opv.tooltip=Moisture Remover
+gcys.machine.dryer.lv.name=基本型乾燥機
+gcys.machine.dryer.lv.tooltip=毛髪用ではない
+gcys.machine.dryer.mv.name=発展型乾燥機
+gcys.machine.dryer.mv.tooltip=毛髪用ではない
+gcys.machine.dryer.hv.name=発展型乾燥機 II
+gcys.machine.dryer.hv.tooltip=毛髪用ではない
+gcys.machine.dryer.ev.name=発展型乾燥機 III
+gcys.machine.dryer.ev.tooltip=毛髪用ではない
+gcys.machine.dryer.iv.name=精鋭型乾燥機
+gcys.machine.dryer.iv.tooltip=衣料用ではない
+gcys.machine.dryer.luv.name=精鋭型乾燥機 II
+gcys.machine.dryer.luv.tooltip=衣料用ではない
+gcys.machine.dryer.zpm.name=精鋭型乾燥機 III
+gcys.machine.dryer.zpm.tooltip=衣料用ではない
+gcys.machine.dryer.uv.name=究極型乾燥機
+gcys.machine.dryer.uv.tooltip=水分除去装置
+gcys.machine.dryer.uhv.name=史上最高の乾燥機
+gcys.machine.dryer.uhv.tooltip=水分除去装置
+gcys.machine.dryer.uev.name=史上最高の乾燥機 II
+gcys.machine.dryer.uev.tooltip=水分除去装置
+gcys.machine.dryer.uiv.name=史上最高の乾燥機 III
+gcys.machine.dryer.uiv.tooltip=水分除去装置
+gcys.machine.dryer.uxv.name=史上最高の乾燥機 IV
+gcys.machine.dryer.uxv.tooltip=水分除去装置
+gcys.machine.dryer.opv.name=伝説の乾燥機
+gcys.machine.dryer.opv.tooltip=水分除去装置
 
 # Pipes
 gcys.pipe.pressure_pipe_low_vacuum.name=Low Vacuum Pipe
