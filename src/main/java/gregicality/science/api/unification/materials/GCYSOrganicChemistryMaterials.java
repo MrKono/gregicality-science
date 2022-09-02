@@ -16,7 +16,11 @@ public class GCYSOrganicChemistryMaterials {
      */
     public static void init() {
 
-        // FREE ID: 15000
+        Tetrahydrofuran = new Material.Builder(15000, "tetrahydrofuran") //TODO "THF" tooltip
+                .fluid()
+                .color(0x3234A8)
+                .components(Carbon, 4, Hydrogen, 8, Oxygen, 1)
+                .build();
 
         Ethylhexanol = new Material.Builder(15001, "ethylhexanol")
                 .fluid()
@@ -251,7 +255,7 @@ public class GCYSOrganicChemistryMaterials {
         Nitroaniline = new Material.Builder(15038, "nitroaniline")
                 .fluid()
                 .color(0x2A6E68)
-                .components(Carbon, 6, Hydrogen, 6, Nitrogen, 6, Oxygen, 2)
+                .components(Carbon, 6, Hydrogen, 6, Nitrogen, 2, Oxygen, 2)
                 .build()
                 .setFormula("H2NC6H4NO2", true);
 
@@ -281,7 +285,7 @@ public class GCYSOrganicChemistryMaterials {
         Trimethylamine = new Material.Builder(15042, "trimethylamine")
                 .fluid(FluidTypes.GAS)
                 .color(0xBB7700)
-                .components(Carbon, 3, Hydrogen, 11, Nitrogen, 1)
+                .components(Carbon, 3, Hydrogen, 9, Nitrogen, 1)
                 .build()
                 .setFormula("(CH3)3N", true);
 

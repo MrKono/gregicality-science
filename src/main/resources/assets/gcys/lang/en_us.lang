@@ -142,6 +142,11 @@ material.vibranium_unstable=Unstable Vibranium
 material.silicon_carbide=Silicon Carbide
 material.cgt=Chromium Germanium Telluride
 material.kovar=Kovar
+material.stannic_chloride=Stannic Chloride
+material.rubidium_chlorostannate=Rubidium Chlorostannate
+material.caesium_chlorostannate=Caesium Chlorostannate
+material.hra_magnesium=Highly Reactive Activated Magnesium
+
 
 # Second Degree Materials
 material.la_pr_nd_ce_oxides_solution=La-Pr-Nd-Ce Oxides Solution
@@ -171,6 +176,7 @@ material.praseodymium_doped_zblan_glass=Praseodymium-Doped ZBLAN Glass
 material.nd_yag=Nd:YAG
 material.bismuth_ferrite=Bismuth Ferrite
 material.cgt_magnetic=Magnetic Chromium Germanium Telluride
+material.heavy_alkali_chloride_solution=Heavy Alkali Chloride Solution
 
 
 # Third Degree Materials
@@ -178,6 +184,7 @@ material.zinc_rich_sphalerite=Zinc-Rich Sphalerite
 
 
 # Organic Chemistry Materials
+material.tetrahydrofuran=Tetrahydrofuran
 material.ethylhexanol=2-Ethylhexanol
 material.diethylhexyl_phosphoric_acid=Di-(2-ethylhexyl)phosphoric Acid
 material.butanol=Butanol
@@ -332,9 +339,6 @@ gcys.machine.steam_vacuum_chamber.name=Small Steam Vacuum Chamber
 gcys.machine.infinite_pressure_pump.name=Infinite Pressure Pump
 gcys.machine.infinite_pressure_pump.tooltip=§8You just need §o§5C§dr§4e§ca§et§ai§bv§3e §7m§1o§5d§de§r§8 to use this
 
-# Dryer
-gregtech.machine.dryer.tooltip=Vaporizing liquids
-
 # Multi Block Hatches
 gcys.machine.pressure_hatch.ivv.name=Intergalactic Void Vacuum Hatch
 gcys.machine.pressure_hatch.csv.name=Close-Space Vacuum Hatch
@@ -402,7 +406,7 @@ gcys.multiblock.axial_compressor.tooltip.3=Uses %s§7 power. Does not overclock.
 gcys.machine.turbomolecular_pump.low_power.name=Low-Power Turbomolecular Pump
 gcys.machine.turbomolecular_pump.high_power.name=High-Power Turbomolecular Pump
 gcys.multiblock.turbomolecular_pump.tooltip.1=Decreases pressure by §b%sPa/s§7 up to §a%sPa (§r%s§a).
-gcys.multiblock.turbomolecular_pump.tooltip.2=Consumes §e%sL/s§7e Lubricant when decreasing pressure.
+gcys.multiblock.turbomolecular_pump.tooltip.2=Consumes §e%sL/s§7 Lubricant when decreasing pressure.
 gcys.multiblock.turbomolecular_pump.tooltip.3=Uses %s§7 power. Does not overclock.
 
 # Single Block Machines

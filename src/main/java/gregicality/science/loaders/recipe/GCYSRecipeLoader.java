@@ -63,11 +63,13 @@ public class GCYSRecipeLoader {
         MolybdenumProcessing.init();
         ThalliumProcessing.init();
         TaraniumProcessing.init();
+        RubidiumProcessing.init();
     }
 
     private static void initCircuits() {
         PrimitiveCircuits.init();
         CrystalCircuits.init();
+        WetwareCircuits.init();
         GoowareCircuits.init();
         OpticalCircuits.init();
         SpintronicCircuits.init();

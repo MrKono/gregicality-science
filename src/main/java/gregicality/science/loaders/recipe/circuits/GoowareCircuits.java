@@ -1,10 +1,6 @@
 package gregicality.science.loaders.recipe.circuits;
 
-import gregicality.science.common.GCYSConfigHolder;
-import gregtech.api.recipes.GTRecipeHandler;
-import gregtech.api.unification.OreDictUnifier;
-import gregtech.api.unification.material.MarkerMaterials;
-import net.minecraft.item.ItemStack;
+import gregtech.api.metatileentity.multiblock.CleanroomType;
 import net.minecraftforge.fluids.FluidStack;
 
 import static gregicality.science.api.recipes.GCYSRecipeMaps.CVD_RECIPES;
@@ -24,6 +20,7 @@ public class GoowareCircuits {
                 .input(plate, KaptonE)
                 .input(foil, Europium, 4)
                 .output(GOOWARE_BOARD)
+                .cleanroom(CleanroomType.CLEANROOM)
                 .duration(40).EUt(VA[UV]).buildAndRegister();
 
         for (FluidStack stack : new FluidStack[]{TetramethylammoniumHydroxide.getFluid(2000), EDP.getFluid(500)}) {
@@ -32,6 +29,7 @@ public class GoowareCircuits {
                     .input(foil, YttriumBariumCuprate, 48)
                     .fluidInputs(stack)
                     .output(GOOWARE_CIRCUIT_BOARD)
+                    .cleanroom(CleanroomType.CLEANROOM)
                     .duration(210).EUt(VA[EV]).buildAndRegister();
         }
 
@@ -64,7 +62,7 @@ public class GoowareCircuits {
                 .input(ADVANCED_SMD_TRANSISTOR, 16)
                 .input(wireFine, Europium, 8)
                 .output(GOOWARE_PROCESSOR, 2)
-                .duration(200).EUt(VA[UV]).buildAndRegister();
+                .duration(200).EUt(VA[UV]).cleanroom(CleanroomType.CLEANROOM).buildAndRegister();
 
         CIRCUIT_ASSEMBLER_RECIPES.recipeBuilder()
                 .input(GOOWARE_CIRCUIT_BOARD)
@@ -75,7 +73,7 @@ public class GoowareCircuits {
                 .input(wireFine, Europium, 16)
                 .output(GOOWARE_ASSEMBLY, 2)
                 .solderMultiplier(2)
-                .duration(400).EUt(VA[UV]).buildAndRegister();
+                .duration(400).EUt(VA[UV]).cleanroom(CleanroomType.CLEANROOM).buildAndRegister();
 
         ASSEMBLY_LINE_RECIPES.recipeBuilder()
                 .input(GOOWARE_CIRCUIT_BOARD)
@@ -100,34 +98,11 @@ public class GoowareCircuits {
                 .input(ADVANCED_SMD_INDUCTOR, 64)
                 .input(foil, KaptonK, 64)
                 .input(RANDOM_ACCESS_MEMORY, 32)
-                .input(wireGtDouble, RutheniumTriniumAmericiumNeutronate, 16)
+                .input(wireGtDouble, PedotPSS, 16)
                 .input(plate, Americium, 8)
                 .fluidInputs(SolderingAlloy.getFluid(L * 20))
                 .fluidInputs(KaptonE.getFluid(L * 9))
                 .output(GOOWARE_MAINFRAME)
                 .duration(2000).EUt(1_200_000).buildAndRegister();
-
-        // Harder Wetware
-        if (GCYSConfigHolder.circuitOverrides.harderWetwareCircuits) {
-            GTRecipeHandler.removeRecipesByInputs(CIRCUIT_ASSEMBLER_RECIPES, new ItemStack[]{
-                    MULTILAYER_FIBER_BOARD.getStackForm(16),
-                    PETRI_DISH.getStackForm(),
-                    ELECTRIC_PUMP_LuV.getStackForm(),
-                    SENSOR_IV.getStackForm(),
-                    OreDictUnifier.get(circuit, MarkerMaterials.Tier.IV),
-                    OreDictUnifier.get(foil, NiobiumTitanium, 16)},
-                    new FluidStack[]{SterileGrowthMedium.getFluid(4000)});
-        }
-
-        CIRCUIT_ASSEMBLER_RECIPES.recipeBuilder()
-                .input(plate, KaptonK, 16)
-                .input(PETRI_DISH)
-                .input(ELECTRIC_PUMP_LuV)
-                .input(SENSOR_IV)
-                .input(circuit, MarkerMaterials.Tier.IV)
-                .input(foil, NiobiumTitanium, 16)
-                .fluidInputs(SterileGrowthMedium.getFluid(4000))
-                .output(WETWARE_BOARD, 16)
-                .duration(1200).EUt(VA[LuV]).buildAndRegister();
     }
 }
